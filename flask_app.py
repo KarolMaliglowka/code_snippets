@@ -12,7 +12,7 @@ def home():
 def about():
     return "<h1>About Page</h1>"
 
-@app.route('/data/', methods=['GET'])
+@app.route('/date/', methods=['GET'])
 def date():
 	return str(datetime.now())
 
